@@ -1,16 +1,16 @@
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
-import Navbar from './navigationbar/navbar.tsx'
 import Home from './components/home.tsx'
-import Footer from './navigationbar/footer.tsx'
+import Projects from './components/projects.tsx'
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Home />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

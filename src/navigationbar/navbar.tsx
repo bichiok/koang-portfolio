@@ -6,7 +6,7 @@ function Navbar() {
 
         {/* Portfolio Name */}
         <a className="navbar-brand fw-bold" href="/">
-          KANGACH ANDREW
+          KOANG A. KANGACH
         </a>
 
         {/* Mobile Menu Button */}

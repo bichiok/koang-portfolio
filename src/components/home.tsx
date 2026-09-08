@@ -50,9 +50,9 @@ function Home() {
               alt="Kangach Andrew"
               className="rounded-circle img-fluid shadow"
               style={{
-                width: "300px",
-                height: "300px",
-                objectFit: "cover"
+                width: "500px",
+                height: "550px",
+                objectFit: "cover",
               }}
             />
 
